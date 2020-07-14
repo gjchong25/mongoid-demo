@@ -1,0 +1,1 @@
+# Mongoid::QueryCache.enabled = true

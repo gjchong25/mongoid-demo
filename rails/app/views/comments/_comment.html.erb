@@ -1,4 +1,7 @@
 <p>
+  <% if comment.avatar_url %>
+    <%= image_tag comment.avatar_url %>
+  <% end %>
   <strong><%= comment.name %>:</strong>
   <%= comment.message %>
 <br>
